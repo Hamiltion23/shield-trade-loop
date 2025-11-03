@@ -1,0 +1,8 @@
+<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="40" rx="8" fill="#111827"/>
+  <g transform="translate(10,8)">
+    <path d="M10 0L0 5V12C0 18 4.5 22.5 10 24C15.5 22.5 20 18 20 12V5L10 0Z" fill="#22C55E"/>
+    <path d="M10 6L6 8V12C6 14.8 7.8 16.8 10 17.5C12.2 16.8 14 14.8 14 12V8L10 6Z" fill="white"/>
+  </g>
+  <text x="42" y="26" fill="#F9FAFB" font-size="16" font-family="Arial, Helvetica, sans-serif" font-weight="700">Shield Trade</text>
+</svg>
