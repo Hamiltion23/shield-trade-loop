@@ -71,6 +71,7 @@
     "compile": "cross-env HARDHAT_DISABLE_EDR=1 TS_NODE_TRANSPILE_ONLY=true hardhat compile",
     "coverage": "cross-env HARDHAT_DISABLE_EDR=1 SOLIDITY_COVERAGE=true hardhat coverage --solcoverjs ./.solcover.js --temp artifacts --testfiles \"test/**/*.ts\" && npm run typechain",
     "lint": "npm run lint:sol && npm run lint:ts && npm run prettier:check",
+    "format": "npm run prettier:write",
     "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
     "lint:ts": "eslint --ignore-path ./.eslintignore --ext .js,.ts .",
     "postcompile": "npm run typechain",
@@ -79,6 +80,7 @@
     "test": "cross-env HARDHAT_DISABLE_EDR=1 hardhat test",
     "test:sepolia": "cross-env HARDHAT_DISABLE_EDR=1 hardhat test --network sepolia",
     "build:ts": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit",
     "typechain": "cross-env HARDHAT_DISABLE_EDR=1 TS_NODE_TRANSPILE_ONLY=true hardhat typechain",
     "node": "cross-env HARDHAT_DISABLE_EDR=1 hardhat node"
   },
