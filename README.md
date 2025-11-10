@@ -1,5 +1,9 @@
 # Shield Trade Loop
 
+## Demo
+- Live Demo: https://shield-trade-loop.vercel.app
+- Demo Video: [demo.mp4](demo.mp4)
+
 Shield Trade Loop is a minimal dApp that lets a trader publish a private swap offer where both amounts are encrypted end‑to‑end using FHEVM. The encrypted values are stored on‑chain and can be re‑encrypted and decrypted later by the user. This demonstrates a privacy‑preserving loop: encrypt → store → decrypt to reduce information leakage and MEV risk.
 
 The project includes:
